@@ -1,13 +1,18 @@
 import streamlit as st
 import time
 
-# ─── PAGE CONFIG ──────────────────────────────────────────────────────────────
+# ─── 1. PAGE CONFIG (TEK VE EN ÜSTTE OLMALI) ──────────────────────────────────
 st.set_page_config(
     page_title="KorkutAI | Otonom Sistemler Portalı",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+# ─── 2. GOOGLE DOĞRULAMA (GİZLİ MÜHÜR) ────────────────────────────────────────
+st.markdown('<meta name="google-site-verification" content="mdeBBR-q7en4diGzZmaNGYBYA6aWSH8Vk48qqvem2KE" />', unsafe_allow_html=True)
+
+
 
 # ─── GLOBAL CSS ───────────────────────────────────────────────────────────────
 st.markdown("""
