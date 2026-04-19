@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-
+st.write('<link rel="shortcut icon" href="./static/googlee3c165653d98f527.html">', unsafe_allow_html=True)
 # ─── 1. PAGE CONFIG (TEK VE EN ÜSTTE OLMALI) ──────────────────────────────────
 st.set_page_config(
     page_title="KorkutAI | Otonom Sistemler Portalı",
