@@ -10,7 +10,8 @@ st.set_page_config(
 )
 
 # ─── 2. GOOGLE DOĞRULAMA (GİZLİ MÜHÜR) ────────────────────────────────────────
-st.markdown('<meta name="google-site-verification" content="mdeBBR-q7en4diGzZmaNGYBYA6aWSH8Vk48qqvem2KE" />', unsafe_allow_html=True)
+# Eski satırı sil, tam olarak bunu yapıştır:
+st.markdown('<meta name="google-site-verification" content="VWcVe_9JxOaafIfQwRv8gbwV8bTcgKFDYXmnlZwPukE" />', unsafe_allow_html=True)
 
 
 
